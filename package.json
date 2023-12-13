@@ -12,7 +12,9 @@
     "husky-install": "husky install",
     "test": "jest --config jest.config.cjs",
     "test:watch": "jest --watch",
-    "test:coverage": "jest --collectCoverage --coverageDirectory=\"./coverage\""
+    "test:coverage": "jest --collectCoverage --coverageDirectory=\"./coverage\"",
+    "lint:fix": "eslint . --ext ts,tsx --fix",
+    "format": "prettier --write ."
   },
   "dependencies": {
     "@babel/preset-env": "^7.23.6",
